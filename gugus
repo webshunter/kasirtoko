@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+// argument
+$argument = $argv;
+unset($argument[0]);
+// root
+require_once __DIR__.'/app/gugus/main.php';
+// action funtion
+$action = $argument[1];
+unset($argument[1]);
+
+call_user_func_array(array("main", $action), $argument);

@@ -1,0 +1,15 @@
+data awal hanya di peruntukkan 1 kali
+
+// --->
+
+accounting akan menyimpan data terbaru dalam bentuk json
+
+setiap akhir bulan data akan di otomoatis update untuk perubahan data berikutnya
+
+konsep aplikasi accounting
+untuk current liabilities data yang dibutuhkan
+current liabiliti memiliki jangka waktu dan bunga
+dibutuhkan tanggal jangka waktu, bunga, dan diskon jika ada
+
+konsep kedua agar data sesuai peraturan dan saat terjadi perubahan pembaruan data lama tidak terjadi perubahan maka
+setting di load berulang dalam bentuk json yang akan di panggil sesuai laporan saat itu juga
